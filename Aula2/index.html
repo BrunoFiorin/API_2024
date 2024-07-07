@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form method="post" action="salvar.php" onsubmit="return validarForm()">
+        Valor: <input type="text" name="txtNome" id="txtNome" /> <br>
+        <input type="submit" value="Enviar" />
+
+
+    </form>
+    
+    <script src="script.js" type="application/javascript"></script>
+
+
+<hr>
+
+Valor 1: <input type="text" id="txtValor1"/><br> 
+
+Valor 2: <input type="text" id="txtValor2"/><br> 
+<button onclick="calcular()">Calcular</button>
+
+<p id="result"></p>
+
+</body>
+</html>
